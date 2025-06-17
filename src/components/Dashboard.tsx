@@ -178,7 +178,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userEmail, onNavigateToLanding })
                       </div>
                       <Zap className="w-12 h-12 text-green-600" />
                     </div>
-                  </div>
+                  </Card>
                 </div>
 
                 {/* Quick Actions */}
@@ -246,9 +246,9 @@ const Dashboard: React.FC<DashboardProps> = ({ userEmail, onNavigateToLanding })
                     <div className="bg-gray-50 p-4 rounded">
                       <h3 className="font-medium mb-2">Email Preview:</h3>
                       <div className="text-sm text-gray-600">
-                        <p><strong>Subject:</strong> We'd love your feedback!</p>
+                        <p><strong>Subject:</strong> We&apos;d love your feedback!</p>
                         <p className="mt-2">Hi there,</p>
-                        <p className="mt-1">We hope you're thrilled with our work! Would you mind taking 2 minutes to share your experience?</p>
+                        <p className="mt-1">We hope you&apos;re thrilled with our work! Would you mind taking 2 minutes to share your experience?</p>
                         <p className="mt-1 text-blue-600">→ Share Your Feedback (links to your form)</p>
                       </div>
                     </div>
@@ -285,7 +285,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userEmail, onNavigateToLanding })
                       </div>
                       
                       <blockquote className="text-gray-700 italic mb-4">
-                        "{testimonial.quote}"
+                        &quot;{testimonial.quote}&quot;
                       </blockquote>
                       
                       <div className="flex gap-2">
